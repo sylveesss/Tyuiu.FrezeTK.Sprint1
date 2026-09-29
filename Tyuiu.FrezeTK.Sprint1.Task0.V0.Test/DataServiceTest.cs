@@ -1,9 +1,9 @@
 ﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
 using System;
 
-using Tyuiu.FrezeTK.Sprint1.Task0.V0.Lib;
+using Tyuiu.FrezeTK.Sprint1.Task0.V19.Lib;
 
-namespace Tyuiu.FrezeTK.Sprint1.Task0.V0.Test
+namespace Tyuiu.FrezeTK.Sprint1.Task0.V19.Test
 {
     [TestClass]
     public class DataServiceTest

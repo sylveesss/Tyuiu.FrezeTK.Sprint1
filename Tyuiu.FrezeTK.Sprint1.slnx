@@ -1,8 +1,8 @@
 <Solution>
   <Folder Name="/Task0/">
-    <Project Path="Tyuiu.FrezeTK.Sprint1.Task0.V0.Lib/Tyuiu.FrezeTK.Sprint1.Task0.V0.Lib.csproj" />
-    <Project Path="Tyuiu.FrezeTK.Sprint1.Task0.V0.Test/Tyuiu.FrezeTK.Sprint1.Task0.V0.Test.csproj" />
-    <Project Path="Tyuiu.FrezeTK.Sprint1.Task0.V0/Tyuiu.FrezeTK.Sprint1.Task0.V0.csproj" />
+    <Project Path="Tyuiu.FrezeTK.Sprint1.Task0.V0.Lib/Tyuiu.FrezeTK.Sprint1.Task0.V19.Lib.csproj" />
+    <Project Path="Tyuiu.FrezeTK.Sprint1.Task0.V0.Test/Tyuiu.FrezeTK.Sprint1.Task0.V19.Test.csproj" />
+    <Project Path="Tyuiu.FrezeTK.Sprint1.Task0.V0/Tyuiu.FrezeTK.Sprint1.Task19.V0.csproj" />
   </Folder>
   <Folder Name="/Task1/">
     <Project Path="Tyuiu.FrezeTK.Sprint1.Task1.V10.Lib/Tyuiu.FrezeTK.Sprint1.Task1.V10.Lib.csproj" Id="e1157213-cec5-4b20-8aa9-97274edf4d58" />

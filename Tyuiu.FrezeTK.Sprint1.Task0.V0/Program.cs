@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-using Tyuiu.FrezeTK.Sprint1.Task0.V0.Lib;
+using Tyuiu.FrezeTK.Sprint1.Task0.V19.Lib;
 
-namespace Tyuiu.FrezeTK.Sprint0.Task8.V0
+namespace Tyuiu.FrezeTK.Sprint1.Task0.V19
 {
     class Program
     {
