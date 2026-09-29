@@ -4,4 +4,9 @@
     <Project Path="Tyuiu.FrezeTK.Sprint1.Task0.V0.Test/Tyuiu.FrezeTK.Sprint1.Task0.V0.Test.csproj" />
     <Project Path="Tyuiu.FrezeTK.Sprint1.Task0.V0/Tyuiu.FrezeTK.Sprint1.Task0.V0.csproj" />
   </Folder>
+  <Folder Name="/Task1/">
+    <Project Path="Tyuiu.FrezeTK.Sprint1.Task1.V10.Lib/Tyuiu.FrezeTK.Sprint1.Task1.V10.Lib.csproj" Id="e1157213-cec5-4b20-8aa9-97274edf4d58" />
+    <Project Path="Tyuiu.FrezeTK.Sprint1.Task1.V10.Test/Tyuiu.FrezeTK.Sprint1.Task1.V10.Test.csproj" Id="48ace376-96e5-4e70-9c93-6be15f1aa86f" />
+    <Project Path="Tyuiu.FrezeTK.Sprint1.Task1.V10/Tyuiu.FrezeTK.Sprint1.Task1.V10.csproj" Id="ae86545e-9a9b-4bbb-ab5f-73e4811edc30" />
+  </Folder>
 </Solution>
