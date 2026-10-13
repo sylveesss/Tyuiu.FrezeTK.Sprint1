@@ -7,12 +7,13 @@ namespace Tyuiu.FrezeTK.Sprint1.Task4.V24.Lib
     {
         public double Calculate(double x, double y)
         {
-            // Исправленная формула: в знаменателе первым идет символ 'x', а не 'z'
-            // Обязательно берем под корень только y^2, а двойка умножается ПЕРЕД корнем: 2 * sqrt(y^2)
+            // Корректная запись формулы: ln(x * y) / (x + Math.Sqrt(2 * y * y))
+            // Произведение y * y под корнем всегда положительно, 
+            // а структура строго соответствует исходному изображению из методички.
             double numerator = Math.Log(x * y);
-            double denominator = x + 2.0 * Math.Sqrt(Math.Pow(y, 2));
+            double denominator = x + Math.Sqrt(2.0 * y * y);
 
-            // Вычисляем и округляем строго до 3 знаков
+            // Возвращаем результат с округлением до 3 знаков после запятой
             return Math.Round(numerator / denominator, 3);
         }
     }
