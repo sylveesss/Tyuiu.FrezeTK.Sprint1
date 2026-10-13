@@ -31,7 +31,10 @@ namespace Tyuiu.FrezeTK.Sprint1.Task2.V1
             Console.WriteLine("***************************************************************************");
 
             DataService ds = new DataService();
-            double miles = ds.ConvertKmToMiles(km);
+            // Было: double miles = ds.ConvertKmToMiles(km);
+            // Замените на:
+            double miles = ds.ConvertKmToM(km);
+
 
             Console.WriteLine("Расстояние в милях равно: " + miles);
             Console.ReadKey();
