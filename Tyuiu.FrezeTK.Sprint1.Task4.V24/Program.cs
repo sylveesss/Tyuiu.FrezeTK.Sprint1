@@ -1,4 +1,8 @@
 ﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
 using Tyuiu.FrezeTK.Sprint1.Task4.V24.Lib;
 
 namespace Tyuiu.FrezeTK.Sprint1.Task4.V24
@@ -24,7 +28,7 @@ namespace Tyuiu.FrezeTK.Sprint1.Task4.V24
             Console.WriteLine("* ИСХОДНЫЕ ДАННЫЕ:                                                        *");
             Console.WriteLine("***************************************************************************");
 
-            // Примечание: x * y должно быть строго больше 0 для работы логарифма ln
+            // Для работы натурального логарифма (ln) произведение x * y должно быть строго больше 0
             Console.Write("Введите значение X: ");
             double x = Convert.ToDouble(Console.ReadLine());
 
