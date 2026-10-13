@@ -1,0 +1,7 @@
+<Solution>
+  <Folder Name="/Task0/">
+    <Project Path="Tyuiu.FrezeTK.Sprint1.Task0.V19.lib/Tyuiu.FrezeTK.Sprint1.Task0.V19.lib.csproj" Id="f491baa0-c9e4-462c-9969-6ff5b6c18c88" DisplayName="Tyuiu.FrezeTK.Sprint1.Task0.V19.Lib" />
+    <Project Path="Tyuiu.FrezeTK.Sprint1.Task0.V19.test/Tyuiu.FrezeTK.Sprint1.Task0.V19.test.csproj" Id="51f6993d-4a88-47ce-af82-d0ca2cc9037d" DisplayName="Tyuiu.FrezeTK.Sprint1.Task0.V19.Test" />
+    <Project Path="Tyuiu.FrezeTK.Sprint1.Task0.V19/Tyuiu.FrezeTK.Sprint1.Task0.V19.csproj" Id="ced037e7-3215-40ba-87d6-1a65386d354c" />
+  </Folder>
+</Solution>
