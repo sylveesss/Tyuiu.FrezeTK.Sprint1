@@ -7,11 +7,12 @@ namespace Tyuiu.FrezeTK.Sprint1.Task4.V24.Lib
     {
         public double Calculate(double x, double y)
         {
-            // Формула задания: ln(x * y) / (x + sqrt(2 * y^2))
+            // Исправленная формула: в знаменателе первым идет символ 'x', а не 'z'
+            // Обязательно берем под корень только y^2, а двойка умножается ПЕРЕД корнем: 2 * sqrt(y^2)
             double numerator = Math.Log(x * y);
-            double denominator = x + Math.Sqrt(2.0 * Math.Pow(y, 2));
+            double denominator = x + 2.0 * Math.Sqrt(Math.Pow(y, 2));
 
-            // Вычисляем результат и округляем до 3 знаков после запятой
+            // Вычисляем и округляем строго до 3 знаков
             return Math.Round(numerator / denominator, 3);
         }
     }
