@@ -29,4 +29,9 @@
     <Project Path="Tyuiu.FrezeTK.Sprint1.Task5.V7.Test/Tyuiu.FrezeTK.Sprint1.Task5.V7.Test.csproj" Id="9501d27f-d37b-443b-8478-36e0af7a6d5c" />
     <Project Path="Tyuiu.FrezeTK.Sprint1.Task5.V7/Tyuiu.FrezeTK.Sprint1.Task5.V7.csproj" Id="3d56ac44-fb91-4656-9218-5fb39502f8aa" />
   </Folder>
+  <Folder Name="/Task6/">
+    <Project Path="Tyuiu.FrezeTK.Sprint1.Task6.V12.Lib/Tyuiu.FrezeTK.Sprint1.Task6.V12.Lib.csproj" Id="001f272c-35a5-419d-b87d-a0a66d353485" />
+    <Project Path="Tyuiu.FrezeTK.Sprint1.Task6.V12.Test/Tyuiu.FrezeTK.Sprint1.Task6.V12.Test.csproj" Id="9809b2a7-1856-4bad-b5e2-52d62369f0db" />
+    <Project Path="Tyuiu.FrezeTK.Sprint1.Task6.V12/Tyuiu.FrezeTK.Sprint1.Task6.V12.csproj" Id="0828a704-bbe6-42d1-9225-50b5098c1f6c" />
+  </Folder>
 </Solution>
