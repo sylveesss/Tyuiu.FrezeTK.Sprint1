@@ -1,6 +1,4 @@
-﻿// Файл: Program.cs в проекте Tyuiu.FrezeTK.Sprint1.Task7.V9
-// ДЛЯ ПРОВЕРЯЮЩЕЙ СИСТЕМЫ: Измените "Имя сборки" (Assembly name) в свойствах проекта на: ISprint1Task7V9
-using System;
+﻿using System;
 using Tyuiu.FrezeTK.Sprint1.Task7.V9.Lib;
 
 namespace Tyuiu.FrezeTK.Sprint1.Task7.V9
