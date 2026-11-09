@@ -1,4 +1,4 @@
-﻿namespace Tyuiu.FrezeTK.Sprint1.Task7.V7.Test
+﻿namespace Tyuiu.FrezeTK.Sprint1.Task7.V9.Test
 {
     [TestClass]
     public sealed class Test1

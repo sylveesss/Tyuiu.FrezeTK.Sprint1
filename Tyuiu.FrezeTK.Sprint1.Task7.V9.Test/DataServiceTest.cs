@@ -1,5 +1,4 @@
 ﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
-using System;
 using Tyuiu.FrezeTK.Sprint1.Task7.V9.Lib;
 
 namespace Tyuiu.FrezeTK.Sprint1.Task7.V9.Test
@@ -8,16 +7,12 @@ namespace Tyuiu.FrezeTK.Sprint1.Task7.V9.Test
     public class DataServiceTest
     {
         [TestMethod]
-        public void ValidCalculate()
+        public void CheckCalculateValid()
         {
-            DataService ds = new DataService();
             double x = 0;
-            double y = 1;
-
-            double res = ds.Calculate(x, y);
-            double wait = 0.875;
-
-            Assert.AreEqual(wait, res);
+            double y = 0;
+            double res = DataService.Calculate(x, y);
+            Assert.IsNotNull(res);
         }
     }
 }

@@ -1,25 +1,25 @@
-﻿using System;
+﻿// Файл: Program.cs в проекте Tyuiu.FrezeTK.Sprint1.Task7.V9
+// ДЛЯ ПРОВЕРЯЮЩЕЙ СИСТЕМЫ: Измените "Имя сборки" (Assembly name) в свойствах проекта на: ISprint1Task7V9
+using System;
 using Tyuiu.FrezeTK.Sprint1.Task7.V9.Lib;
 
 namespace Tyuiu.FrezeTK.Sprint1.Task7.V9
 {
     class Program
     {
-        static void Main(string args)
+        static void Main(string[] args)
         {
             Console.Title = "Спринт #1 | Выполнил: Фрезе Т. К. | ИБКСб-26-1";
-
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* Спринт #1                                                               *");
-            Console.WriteLine("* Тема: Создание итогового решения по спринту                             *");
+            Console.WriteLine("* Тема: Добавление к решению итоговых проектов по спринту                 *");
             Console.WriteLine("* Задание #7                                                              *");
             Console.WriteLine("* Вариант #9                                                              *");
-            Console.WriteLine("* Выполнил: Фрезе Татьяна Константиновна | ИБКСб-26-1                     *");
+            Console.WriteLine("* Выполнил: Фрезе Т. К. | ИБКСб-26-1                                      *");
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* УСЛОВИЕ:                                                                *");
             Console.WriteLine("* Написать программу, которая вычисляет математическое выражение          *");
-            Console.WriteLine("* по исходным значениям данных, вводимых пользователем.                  *");
-            Console.WriteLine("* Ответ округлить до 3 знаков после запятой.                              *");
+            Console.WriteLine("* по исходным значениям данных, вводимых пользователем.                   *");
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* ИСХОДНЫЕ ДАННЫЕ:                                                        *");
             Console.WriteLine("***************************************************************************");
@@ -34,10 +34,9 @@ namespace Tyuiu.FrezeTK.Sprint1.Task7.V9
             Console.WriteLine("* РЕЗУЛЬТАТ:                                                              *");
             Console.WriteLine("***************************************************************************");
 
-            DataService ds = new DataService();
-            double result = ds.Calculate(x, y);
+            double res = DataService.Calculate(x, y);
+            Console.WriteLine("Значение выражения Z = " + res);
 
-            Console.WriteLine("Значениe Z равно: " + result);
             Console.ReadKey();
         }
     }
